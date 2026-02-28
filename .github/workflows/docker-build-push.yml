@@ -2,7 +2,7 @@ name: Build, Push Docker image and Deploy to EC2 via SSM
 
 on:
   push:
-    branches: [ main ]
+    branches: [ week02 ]
 
 env:
   IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.repository }}
